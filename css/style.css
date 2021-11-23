@@ -1,0 +1,55 @@
+body{background:#333;
+color:#fff;}
+.navbar{border-bottom:3px solid #008ed6;
+background:#292b2c;
+opacity:0.7;}
+
+#home-section{background-image:url(../img/home.jpg);
+background-repeat:no-repeat;
+background-position:center top;
+background-size:cover;
+min-height:700px;
+background-attachment:fixed;
+}
+
+.dark-overlay{background:rgba(0,0,0,0.7);
+min-height:700px;}
+
+#home-section .fa{background:#fff;
+color:#008ed6;
+font-size:30px;
+padding:4px;
+border-radius:5px;}
+
+.card-form{opacity:0.8;}
+
+
+.home-inner{padding-top:150px;
+padding-bottom:50px;}
+
+#explore-bottom .fa{background:#333;
+color:#fff;
+font-size:30px;
+padding:4px;
+border-radius:5px;}
+
+#creator-bottom .fa{background:#fff;
+font-size:30px;
+color:#008ed6;
+padding:4px;
+border-radius:5px;
+margin-top:-20px}
+
+#section-bottom .fa{background:#333;
+color:#fff;
+padding:4px;
+border-radius:5px;
+font-size:30px;
+margin-top:-20px;}
+
+
+
+
+
+
+@media(max-width:768px){#home-section h1{font-size:36px;}}
